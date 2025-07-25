@@ -12,12 +12,12 @@ let undefined ;
 // Premative Data Type :
 
 // number
-// bigint
 // string => "", ''
 // boolean => true, false
 // null => standalone Value
 // undefined =>
-// symbol => unique    
+    // symbol => unique    
+// bigint
 
 
 // check this type

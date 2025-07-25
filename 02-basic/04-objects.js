@@ -48,9 +48,9 @@ const users = [
 
 // object ku arr me convert krdeta hai
 
-// console.log(Object.keys(tinderUser))
-// console.log(Object.values(tinderUser))
-// console.log(Object.entries(tinderUser))
+// console.log(Object.keys(tinderUser)) //just keys in arr
+// console.log(Object.values(tinderUser)) //just values in arr
+// console.log(Object.entries(tinderUser)) // keys and values in one arr
 
 
 

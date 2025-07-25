@@ -11,7 +11,7 @@ const jsUser = {
     loaction : "Orangi",
     email : "example@google.com",
     isLoggedIn : false,
-    lastloginDays : ["monday", "tuesday", "wednesday"]
+    lastloginDays : ["monday", "tuesday", "wednesday"],
   };
   
   // console.log(jsUser.name)
