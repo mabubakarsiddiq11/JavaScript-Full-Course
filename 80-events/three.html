@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello SetInterval</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+  </body>
+
+  <script>
+    var intervalId; // global variable to store interval id
+
+    var sayAbubakar = () => {
+      console.log("Date", Date.now());
+    };
+
+    document.getElementById("start").addEventListener("click", () => {
+      // agar already chal raha hai to dobara start na ho
+      if (!intervalId) {
+        intervalId = setInterval(sayAbubakar, 1000);
+        console.log("Start");
+      }
+    });
+
+    document.getElementById("stop").addEventListener("click", () => {
+      clearInterval(intervalId);
+      intervalId = null; // reset so we can start again
+      console.log("Stop");
+    });
+  </script>
+</html>
